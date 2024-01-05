@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation page</title>
+    <link rel="stylesheet" href="valid.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+        @media screen and (max-width:900px){
+        .h1{
+               font-size: 10px;
+        }.container{
+            width: 200px;
+            height: 200px;
+            margin-left: 0;
+            font-size: 10px;
+            margin-top: 200px;
+        }
+        input[type=text],[type=password]{ 
+            width: 100px;
+            border: 0;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div  class="h1">
+        <h1> <b>Surya Cabs<b></h1>
+    </div>
+    <div class="container">
+        <p>Log-In</p>
+        <div class="name">
+            <i class='fa fa-user' style="font-size: 25px;"></i>
+            <input type="text" placeholder="User Name" value="" id="name">
+        </div>
+         <div class="password">
+            <i class="fa fa-key icon" style="font-size: 25px;"></i>
+            <input type="password"  placeholder="password" value="" id="password"><br><br>
+         </div>
+
+         <div>
+            <input type="checkbox" onclick="myFunction()">Show Password
+         </div>
+        <button id="button" onclick="submit()">SUBMIT</button>
+        
+        
+    </div>
+
+    <script src="valid.js"></script>
+</body>
+</html>

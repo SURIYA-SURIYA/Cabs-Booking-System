@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation page</title>
+    <link rel="stylesheet" href="valid.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <style>
+    
+        
+         #no-cab{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            margin-top: 120px;
+            box-shadow: 0 0 4px 3px orangered;
+            border-radius:50%;
+         }
+         
+        .carbox{
+             width: 100%;
+             margin-left: 35%;
+            
+        
+        }
+        .carbox img{
+        width:250px;
+        height:200px;
+        padding-left: 25px;
+        padding-top: 50px;
+        padding-right: 25px;
+        }
+       
+       .fac{
+        width: 100%;
+        height: 800px;
+       }
+       #para{
+        width:800px;
+        height: 300px;
+        color: white;
+        font-size: small;
+        background:orangered ;
+        padding: 20px;
+        border-radius: 15px;
+       }
+       .name{
+        margin-top: 10px;
+        text-align : center;
+       }
+       .avai{
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+       }
+       #para:hover{
+        background: rgb(22, 211, 117);
+       }
+       .rate{
+        padding: 30px;
+       }
+       .butt{
+        margin-top: 50px;
+        margin-left: 50%;
+       }
+       @media screen and (max-width:900px){
+        .h1{
+
+            height: 50px;
+            font-size: 10px;
+            text-align: center;
+
+        }
+        b{ 
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .butt{
+            margin-left:0;
+        }
+        #para{
+            width: 400px;
+            height: auto;
+            font-size: 8px;
+            margin: auto;
+        }
+        .carbox{
+            width: auto;
+            margin-left:23%;
+        }
+        .rate{
+            font-size: 15px;
+        }
+       }
+    </style>
+</head>
+<body>
+
+    <div  class="h1">
+        <h1> <b>Web Based Online Cab Booking System<b></h1>
+        </div>
+        <div class="carbox">
+            <div id="no-cab">
+                <img src=" .\images\wp2725039-removebg-preview.png">
+ 
+</div>
+        </div>
+            <div class="fac">
+                <h3 class="name">Car Name : Scorpio</h3>
+                <p class="avai">Available</p>
+                  <p id="para">
+                   
+                    The Mahindra Scorpio has 3 Diesel Engine on offer. The Diesel engine is 2523 cc and 2179 cc and 1997 cc . It is available with Manual & Automatic transmission.Depending upon the variant and fuel type the Scorpio has a mileage of 16.36 kmpl & Ground clearance of Scorpio is 180mm. The Scorpio is a 7 seater 4 cylinder car and has length of 4456mm, width of 1820mm and a wheelbase of 2680mm.
+
+
+                </p>
+                <p class="rate">One day Rent Rate : Rs.12,000</p>
+
+                <p class="rate">Weekly Offer: 25% Discount
+                </p>
+
+                <button  class="butt" onclick="booking()">Booking Now</button>
+                </div>
+              
+            
+    <script src="valid.js"></script>
+</body>
+</html>
