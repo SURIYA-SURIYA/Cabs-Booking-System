@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation page</title>
+    <link rel="stylesheet" href="valid.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <style>
+        
+         #no-cab{
+            width: 250px;
+            height: 250px;
+            background-color: white;
+            margin-top: 120px;
+            box-shadow: 0 0 4px 3px orangered;
+            border-radius:50%;
+         }
+         
+        .carbox{
+             width: 100%;
+             margin-left: 35%;
+            
+        
+        }
+        .carbox img{
+        width:250px;
+        height:200px;
+        padding-left: 25px;
+        padding-top: 50px;
+        padding-right: 25px;
+        }
+       
+       .fac{
+        width: 100%;
+        height: 800px;
+       }
+       #para{
+        width:800px;
+        height: 300px;
+        color: white;
+        font-size: small;
+        background:orangered ;
+        padding: 20px;
+        border-radius: 15px;
+       }
+       .name{
+        margin-top: 10px;
+        text-align : center;
+       }
+       .avai{
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+       }
+       #para:hover{
+        background: rgb(22, 211, 117);
+       }
+       .rate{
+        padding: 30px;
+       }
+       .butt{
+        margin-top: 50px;
+        margin-left: 50%;
+       }
+       @media screen and (max-width:900px){
+        .h1{
+    
+            height: 50px;
+            font-size: 10px;
+            text-align: center;
+
+        }
+        b{ 
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .butt{
+            margin-left:0;
+        }
+        #para{
+            width: 400px;
+            height: auto;
+            font-size: 8px;
+            margin: auto;
+        }
+        .carbox{
+            width: auto;
+            margin-left:23%;
+        }
+        .rate{
+            font-size: 15px;
+        }
+       }
+    </style>
+</head>
+<body>
+
+    <div  class="h1">
+        <h1> <b>Web Based Online Cab Booking System<b></h1>
+        </div>
+        <div class="carbox">
+            <div id="no-cab">
+                <img src=" .\images\Audi-Q3-Sportback-270220231103.jpg"></div>
+        </div>
+            <div class="fac">
+                <h3 class="name">Car Name : Aadi</h3>
+                <p class="avai">Available</p>
+                <p id="para">In 1990, having completed their objective to market cars in North America, Audi returned to Europe, turning first to the Deutsche Tourenwagen Meisterschaft (DTM) series with the Audi V8, and then in 1993, being unwilling to build cars for the new formula, they turned their attention to the fast-growing Super Touring series, which are a series of national championships. Audi first entered in the French Supertourisme and Italian Superturismo. In the following year, Audi would switch to the German Super Tourenwagen Cup (known as STW), and then to British Touring Car Championship (BTCC) the year after that.
+
+                    The Fédération Internationale de l'Automobile (FIA), having difficulty regulating the quattro four-wheel drive system, and the impact it had on the competitors, would eventually ban all four-wheel drive cars from competing in the series in 1998,[94] but by then, Audi switched all their works efforts to sports car racing.</p>
+                <p class="rate">One day Rent Rate : Rs.5,000</p>
+
+                <p class="rate">Weekly Offer: 25% Discount
+                </p>
+
+                <button  class="butt" onclick="booking()"><a href="userdetails.html">Booking Now</a></button>
+                </div>
+              
+            
+    <script src="valid.js"></script>
+</body>
+</html>
